@@ -1,0 +1,63 @@
+.right{
+    height: 100vh;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+}
+img{
+    width: 45px;
+}
+.right > h4{
+    text-align: center;
+    line-height: 1.8;
+}
+.button{
+    background-color: #34A853;
+    color: #fff;
+    width: 300px;
+    height: 45px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+    font-size: 0.8rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+.button:hover{
+    background-color: #2ecc71;
+}
+
+/* tablet size */
+@media screen and (min-width: 620px){
+    .button{
+        width: 350px;
+        height: 45px;
+    } 
+}
+
+/* laptop size */
+@media screen and (min-width: 860px) {
+    .loginGrid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .left{
+        height: 100vh;
+        background-color: #000;
+    }
+}
+
+/* desktop size */
+@media screen and (min-width: 1200) {
+
+}
