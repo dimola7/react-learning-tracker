@@ -1,0 +1,36 @@
+.stack{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 20px 15px;
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.stack:hover{
+    transform: scale(1.06);
+}
+.stack > img{
+    margin-top: 20px;
+}
+.stack > h1{
+    color: #63A568;
+    font-size: 50px;
+    margin: 20px 0;
+}
+.stack > p{
+    font-weight: 200;
+}
+.languageCards{
+    margin: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.node{
+    width: 80px;
+}
