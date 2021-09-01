@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import loginStyles from "./Login.module.css";
-import logo from "../../assets/logo.svg";
-import teamsLogo from "../../assets/Teams.png";
+import logo from "../../../assets/logo.svg";
+import teamsLogo from "../../../assets/Teams.png";
+import {Button} from "../../ui/atoms/Buttons/Buttons.styles";
+import {Icon} from "../../ui/atoms/Images/Images.styles";
 
 const Login = () => {
     return (
@@ -9,11 +11,11 @@ const Login = () => {
             <div className={loginStyles.loginGrid}>
                 <div className={loginStyles.left}></div>
                 <div className={loginStyles.right}>
-                    <img src={logo} alt="decagon" />
+                    <Icon src={logo} alt="decagon"/>
                     <h4>Welcome to Decagon’s <br /> Learning Tracker</h4>
-                    <img src={teamsLogo} alt="teams" />
+                    <Icon src={teamsLogo} alt="teams"/>
                     <Link to="/dashboard">
-                        <button className={loginStyles.button}>Login with Microsoft Teams</button>
+                        <Button>Login with Microsoft Teams</Button>
                     </Link>
                 </div>
             </div>

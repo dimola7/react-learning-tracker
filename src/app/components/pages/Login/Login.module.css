@@ -1,0 +1,24 @@
+.right{
+    height: 100vh;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+}
+.right > h4{
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* laptop size */
+@media screen and (min-width: 860px) {
+    .loginGrid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .left{
+        height: 100vh;
+        background-color: #242424;
+    }
+}

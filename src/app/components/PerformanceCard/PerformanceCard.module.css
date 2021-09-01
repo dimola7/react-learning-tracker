@@ -1,0 +1,38 @@
+.performanceBody{
+    display: flex;
+    justify-content: center;
+}
+.performanceCard > h2{
+    font-size: 21px;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.arrows > img{
+    width: 15px;
+    cursor: pointer;
+}
+.progressFlex{
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progressFlex > p{
+    font-size: 15px;
+}
+  .progressbarFlex{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+@media screen and (min-width: 980px){
+    .performanceBody{
+        display: flex;
+        justify-content: start;
+    }
+} 
