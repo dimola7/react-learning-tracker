@@ -15,18 +15,18 @@ const SideNav = () => {
                     <Image src={logo} alt="decagon" width="40px" />
                 </IconDiv>
                 <IconDiv>
-                    <Image src={overview} alt="overview" width="22px"/>
+                    <Image src={overview} alt="overview" width="24px"/>
                     <Text fontSize= "14px">Overview</Text>
                 </IconDiv>
                 <IconDiv>
-                    <Image src={student} alt="student" width="22px" />
+                    <Image src={student} alt="student" width="24px" />
                     <Text fontSize= "14px">Student</Text>
                 </IconDiv>
             </NavTop>
             <NavBottom>
                 <Link to="/" style={{color: "#000"}}>
                     <IconDiv>
-                        <Image src={logout} alt="log out" width="22px" />
+                        <Image src={logout} alt="log out" width="24px" />
                         <Text fontSize= "14px">Log Out</Text>
                     </IconDiv>
                 </Link>
