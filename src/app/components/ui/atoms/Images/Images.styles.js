@@ -4,7 +4,8 @@ export const Icon = styled.img`
     width: 45px;
 `
 
-export const CardIcon = styled.img`
-    margin-top: 20px;
-    width: 80px;
+export const Image = styled.img`
+    width: ${(props) => props.width};
+    height: ${(props) => props.height};
+    cursor: pointer;
 `

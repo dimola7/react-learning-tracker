@@ -1,36 +1,27 @@
-.sideNav{
+import styled from "styled-components";
+
+export const SideBar = styled.div`
     display: grid;
     height: 100vh;
     background: #fff;
     padding: 0 30px;
     place-content: space-between;
-}
-.sideNavFirstFlex{
+`
+export const NavTop = styled.div`
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 60px;
-}
-.sideNavSecondFlex{
+`
+export const NavBottom = styled.div`
     display: flex;
     align-items: flex-end;
     margin-bottom: 30px;
-}
-.iconDiv{
+`
+export const IconDiv = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.iconDiv > .img{
-    width: 22px;
-    cursor: pointer;
-}
-.iconDiv > p{
-    font-size: 14px;
-}
-a{
-    text-decoration: none;
-    color: #000;
-}
+`

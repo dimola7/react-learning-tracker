@@ -10,13 +10,9 @@ export const Nav = styled.nav`
 
 export const LogoIcon = styled.img`
     display: block;
+    width: 40px;
 
     @media screen and (min-width: 1060px){
         display: none;
     }
-`
-
-export const Profile = styled.img`
-    width: 40px;
-    height: 40px;
 `
